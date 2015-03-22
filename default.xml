@@ -6,6 +6,7 @@
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="bmwcarit" fetch="git://github.com/bmwcarit" />
   <remote name="balister" fetch="git://github.com/balister" />
+  <remote name="3cat2" fetch="https://bitbucket.org/3cat2payload" />
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -19,5 +20,6 @@
   <project name="meta-ti" revision="refs/heads/daisy"  remote="yocto" path="poky/meta-ti" />
   <project name="meta-ros" revision="821427d23adb33674da76dc34d8ab6983590fcd4"  remote="bmwcarit" path="poky/meta-ros" />
   <project name="meta-sdr" revision="refs/heads/daisy"  remote="balister" path="poky/meta-sdr" />
+  <project name="meta-brainload" revision="master"  remote="3cat2" path="poky/meta-brainload" />
 
 </manifest>
